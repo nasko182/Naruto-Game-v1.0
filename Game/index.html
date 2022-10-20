@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- game screen -->
+    <div id="game-section">
+        <!-- Game start screen -->
+        <div id="game-start">
+            <button id="start">Press to play</button>
+
+            <div id="nothing">Chose Player</div>
+
+            <div id="naruto" class="player"></div>
+
+            <div id="sasuke" class="player"></div>
+
+            <div id="sakura" class="player"></div>
+        </div>
+
+        <!-- Score -->
+        <div id="game-score">
+            <span id="lives-span">
+                <span id="lives">
+                    <img class="live" src="./images/live.png" alt="&lt;3">
+                    <img class="live" src="./images/live.png" alt="&lt;3">
+                    <img class="live" src="./images/live.png" alt="&lt;3">
+                </span>
+                <span> Lives</span>
+            </span>
+            <span id="points-span">
+                <span id="points">0</span>
+                <span> pts</span>
+            </span>
+            <span id="level-span">
+                <span id="Level">0</span>
+                <span> Level</span>
+            </span>
+            <div>
+
+        <!-- Main game area -->
+        <div id="game-area"></div>
+
+        <!-- Game over -->
+        <div id="game-over" class="hide">
+            <div class="over">Game Over</div>
+            <button id="new-game">New Game</button>
+        </div>
+        <!-- Game over because of Sakura -->
+        <div id="wtf" class="hide">
+            <div class="over">Why the fuck you chose Sakura?</div>
+            <button id="new-game-sakura">New Game</button>
+        </div>
+    </div>
+    <!-- Game screen ends -->
+    <div id="game-end"></div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>

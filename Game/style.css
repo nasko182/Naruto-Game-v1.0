@@ -1,0 +1,232 @@
+body {
+    font-size: 32px;
+    font-family: consolas;
+    margin: 0;
+
+}
+
+#game-area {
+    position: relative;
+    background: rgb(61,160,244);
+    background: linear-gradient(0deg,rgb(61,160,244)0%,
+            rgba(192,221,246,1)33%,
+            rgb(61,160,244)100%);
+    width: 100%;
+    height: 93vh;
+    margin: 0;
+}
+
+#nothing{
+        position: absolute;
+        width: 27%;
+        background-color: rgb(235, 253, 153);
+        border-radius: 30px;
+        top: 10%;
+        left: 35%;
+        z-index: 1;
+        text-align: center;
+        padding: 20px;
+        font-size: 32px;
+        font-family: consolas;
+}
+
+#start{
+    position: absolute;
+    width: 27%;
+    background-color: rgb(235, 253, 153);
+    border-radius: 30px;
+    top: 85%;
+    left: 35%;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    font-family: consolas;
+}
+
+.live{
+    width: 35px;
+    height: 35px;
+}
+
+#game-score {
+    background-color:  black;
+    color: white;
+}
+
+#points-span{
+    position: absolute;
+    left: 47%;
+}
+
+#lives-span{
+    margin-left: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.character-naruto{
+    z-index: 100;
+    position:absolute;
+    width: 82px;
+    height: 100px;
+    background-image: url(./images/naruto.png);
+    background-size: cover;
+}
+.character-sasuke{
+    z-index: 100;
+    position:absolute;
+    width: 82px;
+    height: 100px;
+    background-image: url(./images/sasuke.png);
+    background-size: cover;
+}
+
+#naruto{
+    z-index: 100;
+    position:absolute;
+    width: 200px;
+    height: 400px;
+    left: 42%;
+    top: 205px;
+    background-image: url(./images/naruto.png);
+    background-size: cover;
+}
+#sasuke{
+    z-index: 100;
+    position:absolute;
+    width: 200px;
+    height: 400px;
+    left: 19%;
+    top: 205px;
+    background-image: url(./images/sasuke.png);
+    background-size: cover;
+}
+.selected{
+    outline: 2px solid black;
+    box-shadow: 0 9px 11px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 20%);
+    border-radius: 3px;
+}
+#sakura{
+    z-index: 100;
+    position:absolute;
+    width: 200px;
+    height: 400px;
+    top: 205px;
+    left: 65%;
+    background-image: url(./images/sakura.png);
+    background-size: cover;
+}
+
+.naruto-fire{
+    background-image: url(./images/naruto-attack.png);
+    background-size: cover;
+}
+.sasuke-fire{
+    background-image: url(./images/sasuke-attack.png);
+    background-size: cover;
+}
+
+.attack-naruto {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-image: url(./images/shuriken.png);
+    background-size: cover;
+}
+.attack-sasuke {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-image: url(./images/chidori.png);
+    background-size: cover;
+}
+
+.cloud {
+    z-index: 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url(./images/cloud.png);
+    background-size: cover;
+}
+
+.enemy {
+    z-index: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/orochimaru.png);
+    background-size: cover;
+}
+
+.over{
+    position: absolute;
+    width: 50%;
+    background-color: red;
+    border-radius: 30px;
+    top: 30%;
+    left: 25%;
+    z-index: 1;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+#wtf{
+    position: relative;
+    background: rgb(61,160,244);
+    background: linear-gradient(0deg,rgb(216, 91, 37)0%,
+            rgba(192,221,246,1)33%,
+            rgb(216, 91, 37)100%);
+    width: 100%;
+    height: 93vh;
+    margin: 0;
+}
+#new-game{
+    position: absolute;
+    width: 25%;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    border-color:rgb(207, 77, 57);
+    top: 48%;
+    left: 37.5%;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    font-family: consolas;
+}
+#new-game-sakura{
+    position: absolute;
+    width: 25%;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    border-color:rgb(207, 77, 57);
+    top: 48%;
+    left: 37.5%;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    font-family: consolas;
+}
+#game-over{
+    position: relative;
+    background: rgb(61,160,244);
+    background: linear-gradient(0deg,rgb(216, 91, 37)0%,
+            rgba(192,221,246,1)33%,
+            rgb(216, 91, 37)100%);
+    width: 100%;
+    height: 93vh;
+    margin: 0;
+}
+
+#level-span{
+    padding-left: 70%;
+}
